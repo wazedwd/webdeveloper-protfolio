@@ -1,0 +1,50 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+.header{
+    background-color:#FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 200px;
+    display: flex;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav >ul {
+    display:flex;
+    align-items: center;
+}
+nav li{
+    color: #474747;
+    list-style: none;
+    margin-right: 50px;
+} 
+.wazed-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800px;
+    margin-left: 200px;
+}
+.primary-color{
+    color:#FD6E0A;
+}
+.btn-primary{
+    color: #FFFFFF;
+    background-color: #FD6E0A;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.btn-primary:hover{
+    background-color: aqua;
+    box-shadow: black 2px 2px 5px;
+}
+.hardy-image{
+    width: 584px;
+    height: 676px;
+}   

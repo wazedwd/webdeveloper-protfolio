@@ -4,9 +4,9 @@ body{
 }
 .header{
     background-color:#FFF8F3;
-    background-image: url('/header_bg.png');
+    background-image: url('/header_bg.png'), url('/developer.png');
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position: right bottom, left top;
 }
 .banner{
     padding: 30px 30px 0px 200px;
@@ -135,6 +135,30 @@ font-weight: 700;
 }
 footer{
     display: flex;
+    gap: 100px;
     background-color: #FFF8F3;
     padding: 130px 200px;
 }
+.footer-colum{
+    width: 50%;
+}
+.social-links a{
+    margin-right: 25px;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    color: #757575;
+    display: block;
+    border: none;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    padding: 10px 20px;
+    width: 300px;
+}
+.contact{
+    margin-left: 180px;
+}
+.section-title:hover{
+    color: aquamarine;
+}
+    

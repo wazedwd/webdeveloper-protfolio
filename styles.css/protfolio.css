@@ -4,11 +4,18 @@ body{
 }
 .header{
     background-color:#FFF8F3;
+    background-image: url('/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
 .banner{
-    padding: 30px 30px 30px 200px;
+    padding: 30px 30px 0px 200px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+width: 500px;
 }
 nav{
     display: flex;
@@ -47,4 +54,55 @@ nav li{
 .hardy-image{
     width: 584px;
     height: 676px;
-}   
+}  
+.Hi{
+color:  #474747;
+font-size: 45px;
+font-weight: 600;
+margin-bottom: 10px;
+}
+.Wazed{
+color:#181818;
+font-size: 85px;
+font-weight: 700;
+margin-bottom: 20px;
+}
+.wazed-details{
+color: #757575;
+font-size: 18px;
+font-weight: 400;
+}
+.about{
+background-color: #FFF8F3;
+padding: 130px;
+margin-top: 100px;
+border-radius: 10px;
+}
+main{
+   max-width: 1140px;
+    margin: 0px auto;
+}
+.section-title{
+color:#181818;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+}
+.section-description{
+color:  #757575;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+}
+.about-info-conteiner{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+#section-description{
+    padding: 30px 150px;
+}
+
+

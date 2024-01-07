@@ -1,45 +1,54 @@
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 
 }
-.header{
-    background-color:#FFF8F3;
+
+.header {
+    background-color: #FFF8F3;
     background-image: url('/header_bg.png'), url('/developer.png');
     background-repeat: no-repeat;
     background-position: right bottom, left top;
 }
-.banner{
+
+.banner {
     padding: 30px 30px 0px 200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.banner-content{
-width: 500px;
+
+.banner-content {
+    width: 500px;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
 }
-nav >ul {
-    display:flex;
+
+nav>ul {
+    display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     color: #474747;
     list-style: none;
     margin-right: 50px;
-} 
-.wazed-title{
+}
+
+.wazed-title {
     color: #181818;
     font-size: 45px;
     font-weight: 800px;
     margin-left: 200px;
 }
-.primary-color{
-    color:#FD6E0A;
+
+.primary-color {
+    color: #FD6E0A;
 }
-.btn-primary{
+
+.btn-primary {
     color: #FFFFFF;
     background-color: #FD6E0A;
     padding: 10px 15px;
@@ -47,105 +56,129 @@ nav li{
     border-radius: 5px;
     font-size: 20px;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     background-color: aqua;
     box-shadow: black 2px 2px 5px;
 }
-.hardy-image{
+
+.hardy-image {
     width: 584px;
     height: 676px;
-}  
-.title{
-color:  #474747;
-font-size: 45px;
-font-weight: 600;
-margin-bottom: 10px;
 }
-.wazed{
-color:#181818;
-font-size: 85px;
-font-weight: 700;
-margin-bottom: 20px;
+
+.title {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
-.wazed-details{
-color: #757575;
-font-size: 18px;
-font-weight: 400;
+
+.wazed {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
-.about{
-background-color: #FFF8F3;
-padding: 130px;
-margin-top: 100px;
-border-radius: 10px;
+
+.wazed-details {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
 }
-main{
-   max-width: 1140px;
+
+.about {
+    background-color: #FFF8F3;
+    padding: 130px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+main {
+    max-width: 1140px;
     margin: 0px auto;
 }
-.section-title{
-color:#181818;
-text-align: center;
-font-size: 35px;
-font-weight: 700;
-margin-top: 60px;
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 60px;
 }
-.section-description{
-color:  #757575;
-text-align: center;
-font-size: 18px;
-font-weight: 400;
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
 }
-.about-info-conteiner{
+
+.about-info-conteiner {
     display: flex;
     justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     text-align: center;
 }
-#section-description{
+
+#section-description {
     padding: 30px 150px;
 }
-.skill-container{
+
+.skill-container {
     display: flex;
     gap: 24px;
     margin-top: 30px;
 }
-.skill{
+
+.skill {
     padding: 30px 15px;
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
-.resume-colum-title{
-color:#474747;
-font-size: 30px;
-font-weight: 700;
+
+.resume-colum-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
-.resume-container{
+
+.resume-container {
     display: flex;
     gap: 50px;
     margin: 30px;
 }
-.resume-container hr{
+
+.resume-container hr {
     margin: 30px;
 }
-.download{
+
+.download {
     text-align: center;
     margin-bottom: 50px;
 }
-footer{
+
+footer {
     display: flex;
     gap: 100px;
     background-color: #FFF8F3;
     padding: 130px 200px;
 }
-.footer-colum{
+
+.footer-colum {
     width: 50%;
 }
-.social-links a{
+
+.social-links a {
     margin-right: 25px;
 }
-.contact input[type="text"], input[type="email"], textarea{
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
     color: #757575;
     display: block;
     border: none;
@@ -155,10 +188,11 @@ footer{
     padding: 10px 20px;
     width: 300px;
 }
-.contact{
+
+.contact {
     margin-left: 180px;
 }
-.section-title:hover{
+
+.section-title:hover {
     color: aquamarine;
 }
-    
